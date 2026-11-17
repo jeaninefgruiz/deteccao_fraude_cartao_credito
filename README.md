@@ -45,6 +45,13 @@ O XGBoost teve o melhor resultado, com cerca de 78% das fraudes detectadas e pre
 - Otimizar por recall reduz muito a precisão. Otimizar por PR-AUC ou F1 seria uma alternativa a testar.
 - Os resultados vêm de uma única divisão treino/teste (`random_state=42`).
 
+## Como executar
+
+O notebook abre no Colab pelo botão no início do arquivo. Para rodar localmente:
+
+    pip install -r requirements.txt
+    jupyter notebook deteccao_fraude_cartao_credito.ipynb
+    
 ## Tecnologias
 
 Python, pandas, NumPy, scikit-learn, XGBoost, SHAP, matplotlib e seaborn.
